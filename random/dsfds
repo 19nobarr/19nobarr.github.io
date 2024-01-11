@@ -1,0 +1,98 @@
+<div class="portfolioContainer">
+      <div class="portfolioTitleContainer">
+        <div class="portfolioTitle">Portfolio</div>
+        <div class="text">This is my work. Feel free to explore any of the projects to see detailed explanations of the code and overall design process.</div>
+      </div>
+      <div class="portfolioRow">
+        <div class="cardContainer">
+          <img class="cardImage" src="project1.png"  />
+          <div class="cardTextContainer">
+            <div class="cardTitle">Traveling Trainer App</div>
+            <div class="cardText">
+              An application that uses Traveling Salesperson heuristics to help Pokemon Go players collect items
+            </div>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <img class="cardImage" src="project1.png"  />
+          <div class="cardTextContainer">
+            <div class="cardTitle">Traveling Trainer App</div>
+            <div class="cardText">
+              An application that uses Traveling Salesperson heuristics to help Pokemon Go players collect items
+            </div>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <img class="cardImage" src="project1.png"  />
+          <div class="cardTextContainer">
+            <div class="cardTitle">Traveling Trainer App</div>
+            <div class="cardText">
+              An application that uses Traveling Salesperson heuristics to help Pokemon Go players collect items
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="portfolioContainer">
+        <div class="portfolioTitleContainer">
+          <div class="portfolioTitle">Portfolio</div>
+          <div class="text">This is my work. Feel free to explore any of the projects to see detailed explanations of the code and overall design process.</div>
+        </div>
+        <div class="portfolioRow">
+          <div class="cardContainer">
+            <img class="cardImage" src="project1.png"  />
+            <div class="cardTextContainer">
+              <div class="cardTitle">Traveling Trainer App</div>
+              <div class="cardText">
+                An application that uses Traveling Salesperson heuristics to help Pokemon Go players collect items
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer">
+            <img class="cardImage" src="project1.png"  />
+            <div class="cardTextContainer">
+              <div class="cardTitle">Traveling Trainer App</div>
+              <div class="cardText">
+                An application that uses Traveling Salesperson heuristics to help Pokemon Go players collect items
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer">
+            <img class="cardImage" src="project1.png"  />
+            <div class="cardTextContainer">
+              <div class="cardTitle">Traveling Trainer App</div>
+              <div class="cardText">
+                An application that uses Traveling Salesperson heuristics to help Pokemon Go players collect items
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mainContainer">
+          <div class="heroContainer">
+            <div class="heroTextContainer">
+              <div class="heroTitleContainer">
+                <div class="heroTitle">
+                  Noah Barr
+                </div>
+                <div class="heroSubtitle">
+                  Software Engineer
+                </div>
+              </div>
+              <div class="heroAboutContainer">
+                <div class="heroAboutTitle">
+                  Hi there!
+                </div>
+                <div class="heroAboutText">
+                  I am a 23 year old Software Developer from Ann Arbor, Michigan. I went to school at the University of Michigan where I got my Bachelors Degree in Computer Science and ran a philosophy club called Panel For Your Thoughts. Throughout my time in University I took jobs as a restaurant server where I found a passion in creating experiences for people. 
+                </div>
+              </div>
+            </div>
+            <div class="heroImageContainer">
+              <img class="heroImage" src="HeroImage.png"/>
+  
+            </div>
+          </div>
+  
+        </div>

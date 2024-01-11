@@ -1,74 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+}
+
 body {
-  background-image: url("Background.jpg");
-  color: white;
-  padding: 0;
   margin: 0;
+  height: 100%;
 }
 
-.top {
-  position: absolute;
-  background-color: black;
+.heroContainer {
+  height: 100%;
   width: 100%;
-  height: 10px;
-  top: 0;
-  padding: 5px;
-  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+.heroTitleContainer {
+  margin: 64px;
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.heroTitle {
+  font-size: 100px;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
+}
+.heroSubtitle {
+  font-size: 75px;
+  font-weight: 200;
+  font-family: 'Urbanist', sans-serif;
+
+}
+.heroImageContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.heroImage {
+  min-width: 300px;
+  max-width: 400px;
+  border-radius: 20px;
 }
 
-header{
-  background-color: black;
-  height: 60px;
+.aboutMeContainer {
+  height: 50vh;
   width: 100%;
-  position: sticky;
-  top: 0px;
-  margin: 0px;
-  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutMeTextContainer {
+  max-width: 1000px;
+  margin: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMeTitle {
+  font-size: 50px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  margin: 8px;
+}
+.aboutMeText {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
 }
 
-  .nav {
-    list-style-type: none;
-    position: relative;
-    top: 40%;
-    text-align: center;
-  }
-
-  .navList {
-    display: inline;
-    padding: 30px;
-  }
-
-main {
-  position: relative;
-  background-color: rgba(82, 82, 82, 0.849);
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
+.contactMeContainer {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-  #box {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    height: 600px;
-  }
-
-  .frontImg {
-    height: 80%;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    object-fit: contain;
-  }
-
-  h1 {
-    font-size: 150px;
-    text-align: center;
-  }
-
-  #underTitle {
-    position: absolute;
-    top: 150px;
-    left: 30%;
-  }

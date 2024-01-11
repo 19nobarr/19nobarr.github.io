@@ -15,114 +15,111 @@ body {
 }
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-@media only screen and (min-width: 601px) {
-  .title {
-    font-size: 150px;
-    font-weight: 600;
-    font-family: 'Urbanist', sans-serif;
-  }
-  .subtitle {
-    font-size: 75px;
-    font-weight: 200;
-    font-family: 'Urbanist', sans-serif;
-  }
-  .sectionTitle {
-    font-size: 50px;
-    font-weight: 600;
-    font-family: 'Urbanist', sans-serif;
-  }
-  .sectionText {
-    font-size: 24px;
-    max-width: 1000px;
-    text-align: center;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-  }
-  .heroContainer {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .heroTitleContainer {
-    height: fit-content;
-    align-items: flex-start;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin-right: 64px;
-  }
-  .heroTitle {
-    font-size: 100px;
-    font-weight: 600;
-    font-family: 'Urbanist', sans-serif;
-  }
-  .heroSubtitle {
-    font-size: 75px;
-    font-weight: 200;
-    font-family: 'Urbanist', sans-serif;
-  }
-  .heroImageContainer {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 64px;
-  }
-  .heroImage {
-    height: auto;
-    width: 410px;
-    border-radius: 20px;
-  }
-  
-  .aboutMeContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 64px;
-  }
-  .aboutMeTextContainer {
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .aboutMeTitle {
-    font-size: 50px;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 600;
-    margin: 8px;
-  }
-  .aboutMeText {
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-  }
-  
-  
-  
-  
-  .contactMeContainer {
-    padding: 64px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .contactIconContainer {
-    flex-direction: row;
-    display: flex;
-    gap: 24px;
-    margin: 16px;
-  }
-  .contactIcon {
-     width: 64px;
-     height: 64px;
-  }
-
-
+.title {
+  font-size: 150px;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
 }
+.subtitle {
+  font-size: 75px;
+  font-weight: 200;
+  font-family: 'Urbanist', sans-serif;
+}
+.sectionTitle {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
+}
+.sectionText {
+  font-size: 24px;
+  max-width: 1000px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+.heroContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.heroTitleContainer {
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 64px;
+}
+.heroTitle {
+  font-size: 100px;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
+}
+.heroSubtitle {
+  font-size: 75px;
+  font-weight: 200;
+  font-family: 'Urbanist', sans-serif;
+}
+.heroImageContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 64px;
+}
+.heroImage {
+  height: auto;
+  width: 410px;
+  border-radius: 20px;
+}
+
+.aboutMeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+.aboutMeTextContainer {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMeTitle {
+  font-size: 50px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  margin: 8px;
+}
+.aboutMeText {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+
+
+
+.contactMeContainer {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactIconContainer {
+  flex-direction: row;
+  display: flex;
+  gap: 24px;
+  margin: 16px;
+}
+.contactIcon {
+    width: 64px;
+    height: 64px;
+}
+
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 600px) {
   .title {

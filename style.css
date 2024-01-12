@@ -157,6 +157,14 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
   }
+  .heroTitle {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    background-image: linear-gradient(100deg, #0057FF, #797979, #FFB800, #FFB800);
+    background-clip: text;
+    color: transparent;
+  }
   .heroContainer {
     width: 100%;
     display: flex;

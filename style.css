@@ -177,6 +177,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 64px;
@@ -188,13 +189,6 @@ body {
     align-items: center;
   }
 
-  .contactMeContainer {
-    margin: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .contactIconContainer {
     flex-direction: row;
     display: flex;
@@ -206,11 +200,15 @@ body {
      height: 32px;
   }
 
-
-
+  .heroImageContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 64px;
+  }
   .heroImage {
     height: auto;
-    width: 410px;
+    width: 90%;
     border-radius: 20px;
   }
 }

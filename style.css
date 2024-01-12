@@ -238,12 +238,12 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 64px;
+    margin: 16px;
   }
   .heroImage {
     height: auto;
     width: 90%;
-    border-radius: 20px;
+    border-radius: 10px;
   }
 
   .projectCardContainer {
@@ -252,12 +252,12 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px #797979 solid;
-    border-radius: 20px;
+    border-radius: 10px;
   }
 
   .projectCardImage {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 200px;
   }
 

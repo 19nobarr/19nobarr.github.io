@@ -16,14 +16,11 @@ body {
   overflow-x: hidden;
 }
 
-/* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 1000px) {
-
   ::-webkit-scrollbar {
     width: 10px;
     display: none;
   }
-
   .title {
     font-size: 150px;
     font-weight: 600;
@@ -74,7 +71,6 @@ body {
     height:  1080px;
     width: 100%;
   }
-  
   .aboutMeContainer {
     display: flex;
     align-items: center;
@@ -99,7 +95,6 @@ body {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
   }
-  
   .contactMeContainer {
     padding: 64px;
     display: flex;
@@ -117,7 +112,6 @@ body {
      width: 64px;
      height: 64px;
   }
-
   .sectionContainer {
     display: flex;
     flex-direction: column;
@@ -139,16 +133,15 @@ body {
   .sectionText {
     font-size: 24px;
     font-weight: 500;
+    line-height: 40px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     max-width: 750px;
     color: #433227;
   }
-
-  /*Cards for the portfolio*/
   .projectCardContainer {
     width: 300px;
-    height: 325px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -170,6 +163,9 @@ body {
   }
   .cardTextContainer {
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     background-color: #DBBAA2;
   }
   .cardTitle {
@@ -179,10 +175,10 @@ body {
   }
   .cardText {
     font-size: 16px;
+    line-height: 24px;
     color: #433227;
     font-family: 'Roboto', sans-serif;
   }
-
   .skillsContainer {
     display: flex;
     flex-direction: column;
@@ -206,7 +202,6 @@ body {
   .languageIcon {
     width: 300px;
   }
-
   .otherSkillsContainer {
     display: flex;
     flex-direction: row;
@@ -243,9 +238,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-
-
-
   .footer {
     display: flex;
     align-items: center;
@@ -256,61 +248,91 @@ body {
   }
 
 }
-/* dsfdsfdsIf the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 999px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+  }
   .title {
-    font-size: 50px;
+    font-size: 150px;
     font-weight: 600;
     font-family: 'Urbanist', sans-serif;
   }
   .subtitle {
-    font-size: 25px;
+    font-size: 75px;
     font-weight: 200;
     font-family: 'Urbanist', sans-serif;
   }
-  .sectionTitle {
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Urbanist', sans-serif;
-  }
-  .sectionText {
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-  }
-  .heroTitle {
-    font-size: 50px;
-    font-weight: 600;
-    font-family: 'Urbanist', sans-serif;
-    background-image: linear-gradient(100deg, #FFB800, #797979, #0057FF, #0057FF);
-    background-clip: text;
-    color: transparent;
-  }
   .heroContainer {
-    width: 100%;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-
+  .heroTitleContainer {
+    height: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+  }
+  .heroTitle {
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    background-clip: text;
+    color: black;
+  }
+  .heroSubtitle {
+    font-size: 75px;
+    font-weight: 200;
+    font-family: 'Urbanist', sans-serif;
+  }
+  .heroImageContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .heroImage {
+    top: 0;
+    width: 100%;
+  }
+  .heroMargin {
+    height:  0px;
+    width: 0px;
+  }
   .aboutMeContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 64px;
+    padding: 64px;
   }
   .aboutMeTextContainer {
-    max-width: 600px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
+  .aboutMeTitle {
+    font-size: 50px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    margin: 8px;
+  }
+  .aboutMeText {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+  }
+  .contactMeContainer {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .contactIconContainer {
     flex-direction: row;
     display: flex;
@@ -318,58 +340,137 @@ body {
     margin: 16px;
   }
   .contactIcon {
-     width: 32px;
-     height: 32px;
+     width: 64px;
+     height: 64px;
   }
-
-  .heroImageContainer {
+  .sectionContainer {
     align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+  }
+  .sectionTitleContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin: 16px;
+    gap: 8px
   }
-  .heroImage {
-    height: auto;
-    width: 90%;
-    border-radius: 10px;
+  .sectionTitle {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    color: #433227;
+  } 
+  .sectionText {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    max-width: 750px;
+    color: #433227;
   }
-
   .projectCardContainer {
-    width: 200px;
-    height: 250px;
+    width: 300px;
     display: flex;
     flex-direction: column;
-    border: 1px #797979 solid;
-    border-radius: 10px;
+    border-radius: 5px;
   }
-
   .projectCardImage {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 200px;
+    width: 0px;
   }
-
   .portfolioContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
-    margin-top: 32px;
+    align-self: center;
+    width: 300px;
+    gap: 8px;
+    margin: 20px;
   }
   .cardTextContainer {
-    margin: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
-
   .cardTitle {
-    font-size: 16px;
+    font-size: 20px;
+    text-decoration: underline;
     font-weight: 600;
     font-family: 'Urbanist', sans-serif;
   }
   .cardText {
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 0px;
   }
-
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    gap: 16px;
+  }
+  .skillsTitle {
+    font-size: 0px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+  }
+  .languageIconContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .languageIcon {
+    width:200px;
+  }
+  .otherSkillsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    margin: 32px;
+    width: 0px;
+    height: 0px;
+  }
+  .otherSkilllsIconContainer {
+    display: flex;
+    flex-direction: row;
+    width: 0px;
+    height: 0px;
+  }
+  .otherSkillsIcon {
+    height: 0px;
+  }
+  .workIconAlt {
+    height: 16px;
+  }
+  .workIcon {
+    height: 32px;
+  }
+  .workIconContainer1 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .workIconContainer2 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background-color: #433227;
+    color: #E2C1AA;
+  }
 }
 

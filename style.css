@@ -6,7 +6,7 @@
 html {
   margin: 0;
   height: 100%;
-  min-height: 600px;
+  min-height: 400px;
 }
 
 @keyframes scroll {
@@ -27,7 +27,7 @@ body {
   background-size: auto 100%;
   background-position-x: 0px;
   animation: scroll 350s linear infinite;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .sky {
@@ -50,7 +50,7 @@ body {
   outline: 8px white solid;
   outline-offset: -16px;
   animation: popin 1s ease-in;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .contentContainer {

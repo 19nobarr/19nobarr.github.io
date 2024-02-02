@@ -142,9 +142,6 @@ body {
     font-size: 25px;
     cursor: url("cursor.svg"), auto;
   }
-  .container {
-    outline-width: 8px;
-  }
   .me {
     max-width: 90%;
   }

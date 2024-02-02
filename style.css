@@ -6,6 +6,7 @@
 html {
   margin: 0;
   height: 100%;
+  min-height: 600px;
 }
 
 @keyframes scroll {
@@ -26,6 +27,7 @@ body {
   background-size: auto 100%;
   background-position-x: 0px;
   animation: scroll 350s linear infinite;
+  min-height: 500px;
 }
 
 .sky {
@@ -35,8 +37,8 @@ body {
 }
 
 .me {
-  width: 350px;
-  height: fit-content;
+  max-height: 70%;
+  min-height: 300px;
 }
 
 .container {
@@ -45,9 +47,10 @@ body {
   height: 100vh;
   justify-content: center;
   position: fixed;
-  outline: 16px white solid;
+  outline: 8px white solid;
   outline-offset: -16px;
   animation: popin 1s ease-in;
+  min-height: 500px;
 }
 
 .contentContainer {
@@ -57,6 +60,8 @@ body {
   gap: 32px;
   height: 100%;
   display: flex;
+  padding: 16px;
+  padding-top: 32px;
 }
 
 @keyframes popin {
@@ -97,12 +102,11 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   font-size: 40px;
-  border-radius: 5px;
   cursor: url("cursor.svg"), auto;
 }
 
 .title {
-  font-size: 100px;
+  font-size: 72px;
   font-family: "PT Serif", serif;
   color: white;
 }
@@ -113,4 +117,35 @@ body {
   padding: 32px;
   bottom: 0;
   right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+    font-family: "PT Serif", serif;
+    color: white;
+  }
+  .navContainer {
+    height: 70px;
+  }
+  .navItem {
+    font-size: 0px;
+    font-family: "PT Serif", serif;
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+    cursor: url("cursor.svg"), auto;
+  }
+  .navItem:hover {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 25px;
+    cursor: url("cursor.svg"), auto;
+  }
+  .container {
+    outline-width: 8px;
+  }
+  .me {
+    max-width: 90%;
+  }
 }

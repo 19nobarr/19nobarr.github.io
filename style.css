@@ -127,6 +127,7 @@ body {
   }
   .navContainer {
     height: 70px;
+    background-color: bisque;
   }
   .navItem {
     font-size: 0px;
@@ -144,5 +145,7 @@ body {
   }
   .me {
     max-width: 90%;
+    max-height: 60%;
+    background-color: aqua;
   }
 }

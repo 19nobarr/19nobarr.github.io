@@ -2,30 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Noah Barr</title>
-    <link href="style.css" rel="stylesheet" />
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!--Keep track of device width / height-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title Icon-->
     <link rel="icon" href="favicon.svg" sizes="32x32" />
+    <!--Title-->
+    <title>Noah Barr</title>
+    <!--Styles-->
+    <link href="style.css" rel="stylesheet" />
+    <!--Scripts-->
+    <script src="./code.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="contentContainer">
+        <img
+          src="svgs/hamburgerIcon.svg"
+          id="hamburgerButton"
+          onclick="clickNav()"
+        />
         <div class="titleContainer">
           <div class="title">Hey, I'm Noah</div>
           <div class="navContainer">
-            <a href="pages/about.html" class="navItem">About Me</a>
+            <a href="pages/about.html" class="navItem">About</a>
             <a href="pages/work.html" class="navItem">My Work</a>
-            <a href="pages/contact.html" class="navItem">Contact Me</a>
+            <a href="pages/contact.html" class="navItem">Contact</a>
           </div>
         </div>
-        <image src="images/me.png" class="me"></image>
+        <div class="me"></div>
       </div>
-      <image src="images/logo.png" class="homeLogo" />
+      <image src="images/logo.png" class="logo" />
+    </div>
+    <div id="navPopup">
+      adhsakdjahs
+      <image src="images/logo-circ.png" class="logo" />
+      <div class="navContainer">
+        <a href="pages/about.html" class="navItem">About</a>
+        <a href="pages/work.html" class="navItem">My Work</a>
+        <a href="pages/contact.html" class="navItem">Contact</a>
+      </div>
     </div>
   </body>
   <!--Dedicating this website to my career and to my girlfriend, Tiffany. I know that the future 

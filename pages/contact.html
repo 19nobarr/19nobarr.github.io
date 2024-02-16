@@ -11,18 +11,36 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.svg" sizes="32x32" />
+    <script src="./code.js"></script>
   </head>
   <body>
     <div class="navContainer">
       <div class="navBar">
-        <a href="../index.html">
+        <div onclick="navToHome()">
           <image src="../images/logo-circ.png" class="logo"></image>
-        </a>
-        <a href="about.html" class="navItem">About Me</a>
-        <a href="work.html" class="navItem">My Work</a>
+        </div>
+        <div onclick="navToAbout()" class="navItem">About Me</div>
+        <div onclick="navToWork()" class="navItem">My Work</div>
+        <div onclick="navToContact()" class="navItem">Contact</div>
       </div>
       <div class="underNav"></div>
     </div>
-    <div class="contactContainer"></div>
+    <div class="contentContainer">
+      <img class="handshake" src="../images/handshake.png" />
+      <div class="contactContainer">
+        <div class="titleContainer">
+          <h1>Let’s Work Together!</h1>
+          <div class="text">
+            If you’re looking for employees or team members please reach out in
+            the way that works best for you. Thanks!
+          </div>
+        </div>
+        <div class="informationContainer">
+          <h3>noahlbarr@gmail.com</h3>
+          <h3>(734) 649-4084</h3>
+          <h3 class="underlineText">Download Resume</h3>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

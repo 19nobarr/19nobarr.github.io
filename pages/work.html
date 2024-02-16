@@ -11,17 +11,67 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.svg" sizes="32x32" />
+    <script src="./code.js"></script>
   </head>
   <body>
     <div class="navContainer">
       <div class="navBar">
-        <a href="../index.html">
+        <div onclick="navToHome()">
           <image src="../images/logo-circ.png" class="logo"></image>
-        </a>
-        <a href="about.html" class="navItem">About Me</a>
-        <a href="contact.html" class="navItem">Contact</a>
+        </div>
+        <div onclick="navToAbout()" class="navItem">About Me</div>
+        <div onclick="navToWork()" class="navItem">My Work</div>
+        <div onclick="navToContact()" class="navItem">Contact</div>
       </div>
       <div class="underNav"></div>
+    </div>
+    <div class="contentContainer">
+      <div class="titleContainer">
+        <h1>Projects</h1>
+        <div class="text">
+          This is the work that I am most proud of. Each of these projects
+          possess a page which contain documentation, demos and/or code.
+        </div>
+      </div>
+      <div class="projectContainer">
+        <div class="titleContainer titleAlignLeft">
+          <h2>Proximity Based Social Media</h2>
+          <div class="text">
+            An end to end, Android based social media app that allows users to
+            meet in real life by establishing a proximity based connection.
+            Developed using Kotlin, React Native frontend and a Express JS, Node
+            JS, MongoDB backend.
+          </div>
+        </div>
+      </div>
+      <div class="projectContainer">
+        <div class="titleContainer titleAlignLeft">
+          <h2>Pokemon Go Application</h2>
+          <div class="text">
+            A application that allows users to optimize Pokemon Go gameplay.
+            Developed with Selenium and Python.
+          </div>
+        </div>
+      </div>
+      <div class="projectContainer">
+        <div class="titleContainer titleAlignLeft">
+          <h2>Social Media Web App</h2>
+          <div class="text">
+            An end to end web application that allows users to make friends,
+            discover, and post photos. Built using a Flask, MySQL backend and a
+            HTML, CSS, React JS frontend.
+          </div>
+        </div>
+      </div>
+      <div class="projectContainer">
+        <div class="titleContainer titleAlignLeft">
+          <h2>Portfolio Website</h2>
+          <div class="text">
+            This website! It was designed using Figma, and built using HTML,
+            CSS, and Javascript.
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,11 +1,16 @@
-let navClicked = false;
+let menu = false;
 
 function clickNav() {
   console.log("nav clicked!");
-  if (navClicked) {
-    document.getElementById("navPopup").style.zIndex = -1;
-  } else {
+  console.log(menu);
+  if (!menu) {
+    menu = true;
     document.getElementById("navPopup").style.zIndex = 1;
+    document.getElementById("navPopup").style.display = "flex";
+  } else {
+    menu = false;
+    document.getElementById("navPopup").style.zIndex = -1;
+    document.getElementById("navPopup").style.display = "none";
   }
 }
 

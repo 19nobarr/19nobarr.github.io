@@ -2,29 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Noah Barr</title>
-    <link href="style.css" rel="stylesheet" />
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!--Keep track of device width / height-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.svg" sizes="32x32" />
-    <script src="./code.js"></script>
+    <!--Title Icon-->
+    <link rel="icon" href="../favicon.svg" sizes="32x32" />
+    <!--Title-->
+    <title>Noah Barr</title>
+    <!--Styles-->
+    <link href="../css/style.css" rel="stylesheet" />
+    <!--Scripts-->
+    <script src="../js/code.js"></script>
   </head>
   <body>
-    <div class="navContainer">
-      <div class="navBar">
-        <div onclick="navToHome()">
-          <image src="../images/logo-circ.png" class="logo"></image>
-        </div>
-        <div onclick="navToAbout()" class="navItem">About Me</div>
-        <div onclick="navToWork()" class="navItem">My Work</div>
-        <div onclick="navToContact()" class="navItem">Contact</div>
+    <div class="nav-container">
+      <div class="nav-bar">
+        <a href="../index.html">
+          <image src="../assets/images/logo-circ.png" class="logo"></image>
+        </a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <image
+          id="menu-open-button"
+          src="../assets/svg/nav-menu-black.svg"
+          onclick="click_menu()"
+        />
       </div>
-      <div class="underNav"></div>
-    </div>
+      <div class="nav-drop-shadow"></div>
     <div class="contentContainer">
       <div class="titleContainer">
         <h1>Projects</h1>
@@ -68,9 +78,25 @@
           <h2>Portfolio Website</h2>
           <div class="text">
             This website! It was designed using Figma, and built using HTML,
-            CSS, and Javascript.
+            CSS, and Javascript. It has gone through several iterations and I
+            have ultimately come up with this MPA approach.
           </div>
         </div>
+      </div>
+    </div>
+    <div id="menu-popup">
+      <image
+        src="../assets/svg/nav-close.svg"
+        id="menu-close-button"
+        onclick="click_menu()"
+      />
+      <div class="menu-content">
+        <a href="../index.html">
+          <image src="../assets/images/logo-circ.png" class="menu-logo" />
+        </a>
+        <a href="./about.html" class="menu-link">About Me</a>
+        <a href="./work.html" class="menu-link">My Work</a>
+        <a href="./contact.html" class="menu-link">Contact</a>
       </div>
     </div>
   </body>

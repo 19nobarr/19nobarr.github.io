@@ -1,3 +1,4 @@
+<!--The "home" page-->
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,35 +16,43 @@
     <!--Title-->
     <title>Noah Barr</title>
     <!--Styles-->
-    <link href="style.css" rel="stylesheet" />
+    <link href="./css/home-style.css" rel="stylesheet" />
     <!--Scripts-->
-    <script src="./code.js"></script>
+    <script src="./js/code.js"></script>
   </head>
   <body>
     <div class="container">
-      <div class="contentContainer">
+      <div class="content-container">
         <img
-          src="svgs/hamburgerIcon.svg"
-          id="hamburgerButton"
-          onclick="clickNav()"
+          src="./assets/svg/nav-menu.svg"
+          id="menu-open-button"
+          onclick="click_menu()"
         />
-        <div class="titleContainer">
+        <div class="title-container">
           <div class="title">Hey, I'm Noah</div>
-          <div class="navContainer">
-            <div onclick="navToAbout()" class="navItem">About</div>
-            <div onclick="navToWork()" class="navItem">My Work</div>
-            <div onclick="navToContact()" class="navItem">Contact</div>
+          <div class="nav-container">
+            <a href="./html/about.html" class="nav-link">About Me</a>
+            <a href="./html/work.html" class="nav-link">My Work</a>
+            <a href="./html/contact.html" class="nav-link">Contact</a>
           </div>
         </div>
-        <div class="me"></div>
+        <div class="portrait-cutout"></div>
       </div>
-      <image src="images/logo.png" class="logo" />
+      <image src="./assets/images/logo.png" class="logo" />
     </div>
-    <div id="navPopup">
-      <image src="/svgs/closeIcon.svg" id="closeIcon" onclick="clickNav()" />
-      <div class="navContainerMobile">
-        <image src="images/logo-circ.png" class="mediaLogo" />
-        <h3>About Me</h3>
+    <div id="menu-popup">
+      <image
+        src="./assets/svg/nav-close.svg"
+        id="menu-close-button"
+        onclick="click_menu()"
+      />
+      <div class="menu-content">
+        <a href="./index.html">
+          <image src="./assets/images/logo-circ.png" class="menu-logo" />
+        </a>
+        <a href="./html/about.html" class="menu-link">About Me</a>
+        <a href="./html/work.html" class="menu-link">My Work</a>
+        <a href="./html/contact.html" class="menu-link">Contact</a>
       </div>
     </div>
   </body>

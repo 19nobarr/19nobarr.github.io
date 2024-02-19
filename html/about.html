@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Keep track of device width / height-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title Icon-->
+    <link rel="icon" href="../favicon.svg" sizes="32x32" />
+    <!--Title-->
+    <title>Noah Barr</title>
+    <!--Styles-->
+    <link href="../css/style.css" rel="stylesheet" />
+    <!--Scripts-->
+    <script src="../js/code.js"></script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="nav-bar">
+        <a href="../index.html">
+          <image src="../assets/images/logo-circ.png" class="logo"></image>
+        </a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <image
+          id="menu-open-button"
+          src="../assets/svg/nav-menu-black.svg"
+          onclick="click_menu()"
+        />
+      </div>
+      <div class="nav-drop-shadow"></div>
+    </div>
+    <div class="about-content-container">
+      <image class="about-pic" src="../assets/images/about-portrait.jpg" />
+      <div>
+        <h3>Me</h3>
+        <div class="text">
+          I love solving problems and creating experiences. I am particularly
+          interested in full stack development and software engineering.
+        </div>
+      </div>
+      <div>
+        <h3>My Philosophy</h3>
+        <div class="text">
+          I seek to make the world better by giving people more freedom to make
+          the world one they want to live in. I will fulfill this goal by giving
+          people the power to choose the experiences and functionality that they
+          desire from life. This is why I find developing software so important
+          and rewarding.
+        </div>
+      </div>
+      <div>
+        <h3>Things I Like</h3>
+        <div class="text">
+          When I have free time, you can usually find me working out at the gym,
+          playing video games, or doing Ballroom Dance.
+        </div>
+      </div>
+    </div>
+    <div id="menu-popup">
+      <image
+        src="../assets/svg/nav-close.svg"
+        id="menu-close-button"
+        onclick="click_menu()"
+      />
+      <div class="menu-content">
+        <a href="../index.html">
+          <image src="../assets/images/logo-circ.png" class="menu-logo" />
+        </a>
+        <a href="./about.html" class="menu-link">About Me</a>
+        <a href="./work.html" class="menu-link">My Work</a>
+        <a href="./contact.html" class="menu-link">Contact</a>
+      </div>
+    </div>
+  </body>
+</html>

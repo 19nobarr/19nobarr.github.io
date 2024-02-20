@@ -1,0 +1,21 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.informationContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.handshake {
+  width: 100%;
+}
+.underlineText {
+  text-decoration-line: underline;
+}

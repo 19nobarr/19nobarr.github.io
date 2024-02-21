@@ -124,7 +124,7 @@ body {
 }
 
 /* Removes any mobile only elements */
-#navPopup {
+#menu-popup {
   display: 0;
 }
 #menu-open-button {

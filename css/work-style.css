@@ -2,14 +2,18 @@
   /* Work styling for desktop */
   .project-container {
     display: flex;
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-inline: 16px;
     max-width: 750px;
+    width: 100%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     border: 1px solid #d9d9d9;
-    margin-left: 32px;
-    margin-right: 32px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
   }
   .title-align-left {
     text-align: justify;
@@ -22,6 +26,11 @@
   .project-container {
     border: 1px solid #d9d9d9;
     padding: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
   }
   .title-align-left {
     text-align: left;

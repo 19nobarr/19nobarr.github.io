@@ -11,7 +11,7 @@
     <!--Keep track of device width / height-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Title Icon-->
-    <link rel="icon" href="../favicon.svg" sizes="32x32" />
+    <link rel="icon" href="../favicon.png" sizes="32x32" />
     <!--Title-->
     <title>Noah Barr</title>
     <!--Styles-->
@@ -24,7 +24,7 @@
     <div class="nav-container">
       <div class="nav-bar">
         <a href="../index.html">
-          <image src="../assets/images/logo-circ.png" class="logo"></image>
+          <image src="../assets/images/logo-circ.png" class="logo clickable"></image>
         </a>
         <a href="about.html" class="nav-link">About</a>
         <a href="work.html" class="nav-link">Work</a>
@@ -33,6 +33,7 @@
           id="menu-open-button"
           src="../assets/svg/nav-menu-black.svg"
           onclick="click_menu()"
+          class="clickable"
         />
       </div>
       <div class="nav-drop-shadow"></div>
@@ -46,43 +47,35 @@
         </div>
       </div>
       <div class="project-container">
-        <div class="title-container title-align-left">
-          <h2>Proximity Based Social Media</h2>
-          <div class="text">
-            An end to end, Android based social media app that allows users to
-            meet in real life by establishing a proximity based connection.
-            Developed using Kotlin, React Native frontend and a Express JS, Node
-            JS, MongoDB backend.
-          </div>
+        <h2>Proximity Based Social Media</h2>
+        <div class="text">
+          An end to end, Android based social media app that allows users to
+          meet in real life by establishing a proximity based connection.
+          Developed using Kotlin, React Native frontend and a Express JS, Node
+          JS, MongoDB backend.
         </div>
       </div>
       <div class="project-container">
-        <div class="title-container title-align-left">
-          <h2>Pokemon Go Application</h2>
-          <div class="text">
-            A application that allows users to optimize Pokemon Go gameplay.
-            Developed with Selenium and Python.
-          </div>
+        <h2>Pokemon Go Application</h2>
+        <div class="text">
+          w A application that allows users to optimize Pokemon Go gameplay.
+          Developed with Selenium and Python.
         </div>
       </div>
       <div class="project-container">
-        <div class="title-container title-align-left">
-          <h2>Social Media Web App</h2>
-          <div class="text">
-            An end to end web application that allows users to make friends,
-            discover, and post photos. Built using a Flask, MySQL backend and a
-            HTML, CSS, React JS frontend.
-          </div>
+        <h2>Social Media Web App</h2>
+        <div class="text">
+          An end to end web application that allows users to make friends,
+          discover, and post photos. Built using a Flask, MySQL backend and a
+          HTML, CSS, React JS frontend.
         </div>
       </div>
       <div class="project-container">
-        <div class="title-container title-align-left">
-          <h2>Portfolio Website</h2>
-          <div class="text">
-            This website! It was designed using Figma, and built using HTML,
-            CSS, and Javascript. It has gone through several iterations and I
-            have ultimately come up with this MPA approach.
-          </div>
+        <h2>Portfolio Website</h2>
+        <div class="text">
+          This website! It was designed using Figma, and built using HTML,
+          CSS, and Javascript. It has gone through several iterations and I
+          have ultimately come up with this MPA approach.
         </div>
       </div>
     <div id="menu-popup">
@@ -90,6 +83,7 @@
         src="../assets/svg/nav-close.svg"
         id="menu-close-button"
         onclick="click_menu()"
+        class="clickable"
       />
       <div class="menu-content">
         <a href="../index.html">

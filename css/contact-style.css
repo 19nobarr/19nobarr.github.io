@@ -16,7 +16,8 @@
 .handshake {
   margin-top: 32px;
   margin-bottom: 32px;
-  width: 85%;
+  width: 90%;
+  max-width: 1000px;
   align-self: center;
 }
 .underline-text {

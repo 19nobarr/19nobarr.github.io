@@ -123,6 +123,14 @@ body {
   right: 0;
 }
 
+.clickable {
+  cursor: url("../assets/svg/cursor-black-filled.svg"), auto;
+}
+
+.clickable-white {
+  cursor: url("../assets/svg/cursor-white-filled.svg"), auto;
+}
+
 /* Removes any mobile only elements */
 #menu-popup {
   display: 0;
@@ -165,7 +173,7 @@ body {
     position: absolute;
     z-index: -1;
     top: 0;
-    cursor: url("../assets/svg/cursor-black.svg");
+    cursor: url("../assets/svg/cursor-black.svg"), auto;
   }
   .menu-content {
     display: flex;
@@ -187,6 +195,7 @@ body {
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+    cursor: url("../assets/svg/cursor-black-filled.svg"), auto;
   }
   .nav-menu-item:hover {
     cursor: url("../assets/svg/cursor-black-filled.svg");

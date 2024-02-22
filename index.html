@@ -12,7 +12,7 @@
     <!--Keep track of device width / height-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Title Icon-->
-    <link rel="icon" href="favicon.svg" sizes="32x32" />
+    <link rel="icon" href="favicon.png" sizes="32x32" />
     <!--Title-->
     <title>Noah Barr</title>
     <!--Styles-->
@@ -27,6 +27,7 @@
           src="./assets/svg/nav-menu.svg"
           id="menu-open-button"
           onclick="click_menu()"
+          class="clickable-white"
         />
         <div class="title-container">
           <div class="title">Hey, I'm Noah</div>
@@ -45,10 +46,14 @@
         src="./assets/svg/nav-close.svg"
         id="menu-close-button"
         onclick="click_menu()"
+        class="clickable"
       />
       <div class="menu-content">
         <a href="./index.html">
-          <image src="./assets/images/logo-circ.png" class="menu-logo" />
+          <image
+            src="./assets/images/logo-circ.png"
+            class="menu-logo clickable"
+          />
         </a>
         <a href="./html/about.html" class="menu-link">About Me</a>
         <a href="./html/work.html" class="menu-link">My Work</a>

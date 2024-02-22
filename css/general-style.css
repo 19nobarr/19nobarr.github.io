@@ -72,7 +72,7 @@ body {
 }
 .nav-link:hover {
   font-size: 28px;
-  cursor: url("../assets/svg/cursor-black.svg"), auto;
+  cursor: url("../assets/svg/cursor-black-filled.svg"), auto;
 }
 .nav-drop-shadow {
   width: 100%;
@@ -95,10 +95,12 @@ body {
   width: 76px;
   height: 76px;
 }
+.clickable:hover {
+  cursor: url("../assets/svg/cursor-black-filled.svg"), auto;
+}
 
 .title-container {
   display: flex;
-  width: 300px;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -115,6 +117,7 @@ body {
   line-height: 32px;
   margin-left: 16px;
   margin-right: 16px;
+  max-width: 750px;
 }
 h1 {
   color: #000;
@@ -150,13 +153,17 @@ h3 {
   margin-right: 16px;
 }
 
+a:hover {
+  cursor: url("../assets/svg/cursor-black-filled.svg"), auto;
+}
+
 .content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 64px;
   overflow-y: scroll;
-  max-width: 750px;
+  max-width: 100%;
   padding-top: 215px;
   padding-bottom: 128px;
 }
@@ -213,6 +220,7 @@ h3 {
   }
   .content-container {
     align-self: center;
+    padding-inline: 64px;
   }
 }
 
@@ -311,6 +319,7 @@ h3 {
   .content-container {
     padding-top: 96px;
     padding-bottom: 32px;
+    padding-inline: 16px;
     overflow-y: scroll;
     scrollbar-gutter: stable both-edges;
     gap: 32px;
